@@ -12,20 +12,17 @@ export const Footer: React.FC = () => {
           <p className="footer-tagline">Nairobi's premier interior design studio — bespoke curtains, fitted wardrobes, and complete transformations since 2018.</p>
           <div className="social-links">
             <a href="https://www.instagram.com/posh_interior_design?igsh=MWQxYjU1NnJ6dG5ncQ==" target="_blank" rel="noopener noreferrer" className="social-link">Ig</a>
-            <a href="#" className="social-link">Fb</a>
-            <a href="#" className="social-link">Yt</a>
-            <a href="#" className="social-link">Tk</a>
           </div>
         </div>
         <div>
           <p className="footer-col-title">Services</p>
           <ul className="footer-list">
-            <li><a href="#">Curtains & Drapes</a></li>
-            <li><a href="#">Blinds & Shutters</a></li>
-            <li><a href="#">Full Interior Design</a></li>
-            <li><a href="#">Fitted Wardrobes</a></li>
-            <li><a href="#">Soft Furnishings</a></li>
-            <li><a href="#">Office Interiors</a></li>
+            <li><a href="#services">Curtains & Drapes</a></li>
+            <li><a href="#services">Blinds & Shutters</a></li>
+            <li><a href="#services">Full Interior Design</a></li>
+            <li><a href="#wardrobes">Fitted Wardrobes</a></li>
+            <li><a href="#services">Soft Furnishings</a></li>
+            <li><a href="#services">Office Interiors</a></li>
           </ul>
         </div>
         <div>
@@ -42,7 +39,7 @@ export const Footer: React.FC = () => {
           <ul className="footer-list">
             <li><a href="tel:+254719286449">+254 719 286 449</a></li>
             <li><a href="mailto:hello@poshinteriors.co.ke">hello@poshinteriors.co.ke</a></li>
-            <li><a href="#">Westlands, Nairobi</a></li>
+            <li><a href="https://maps.google.com/?q=Westlands,+Nairobi,+Kenya" target="_blank" rel="noopener noreferrer">Westlands, Nairobi</a></li>
             <li><a href="https://wa.me/254719286449" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
           </ul>
         </div>

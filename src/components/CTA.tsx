@@ -14,7 +14,7 @@ export const CTA: React.FC = () => {
             <small>Call us now</small>
             +254 719 286 449
           </div>
-          <a href="#" className="btn-gold" style={{ fontSize: '.65rem', padding: '16px 36px' }}>Book Free Consultation</a>
+          <a href="https://wa.me/254719286449?text=Hi%20Posh%20Interiors%2C%20I%27d%20like%20to%20book%20a%20free%20consultation." target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ fontSize: '.65rem', padding: '16px 36px' }}>Book Free Consultation</a>
           <a href="https://wa.me/254719286449" className="wa-cta" target="_blank" rel="noopener noreferrer">
             <span className="wa-dot-big"></span> Chat on WhatsApp
           </a>
