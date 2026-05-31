@@ -691,3 +691,59 @@ footer{background:#0D0B09;padding:72px 56px 36px}
 .ch-card-img { background: linear-gradient(150deg,#B0A890 0%,#988870 100%); }
 .insta-item { background: linear-gradient(150deg,#C8C0B0 0%,#B0A080 100%); }
 .hero-thumb { background: linear-gradient(150deg,#4A3A28 0%,#3A2A1A 100%); }
+
+/* ============ SCROLL TO TOP ============ */
+.scroll-to-top {
+  position: fixed;
+  bottom: 104px;
+  right: 28px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(28, 23, 18, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(201, 168, 76, 0.3);
+  color: var(--gold);
+  box-shadow: 0 8px 32px rgba(17, 14, 10, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 600;
+  opacity: 0;
+  transform: translateY(20px) scale(0.8);
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: all;
+}
+
+.scroll-to-top:hover {
+  background: rgba(28, 23, 18, 0.95);
+  border-color: var(--gold);
+  box-shadow: 0 12px 40px rgba(201, 168, 76, 0.45);
+  transform: translateY(-3px) scale(1.05);
+}
+
+.scroll-to-top svg {
+  transition: transform 0.3s ease;
+}
+
+.scroll-to-top:hover svg {
+  transform: translateY(-3px);
+}
+
+@media(max-width:640px) {
+  .scroll-to-top {
+    bottom: 96px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+  }
+}
+

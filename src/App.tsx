@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Cursor } from './components/Cursor';
 import { WhatsAppFloat } from './components/WhatsAppFloat';
+import { ScrollToTop } from './components/ScrollToTop';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Marquee } from './components/Marquee';
@@ -57,6 +58,7 @@ const App: React.FC = () => {
     <>
       <Cursor />
       <WhatsAppFloat />
+      <ScrollToTop />
       <Navbar />
       <Hero />
       <Marquee />
