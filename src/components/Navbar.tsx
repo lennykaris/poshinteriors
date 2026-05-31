@@ -18,7 +18,10 @@ export const Navbar: React.FC = () => {
   return (
     <>
       <nav id="nav" className={isSolid ? 'solid' : ''}>
-        <a className="nav-logo" href="#">Posh <span>&</span> Interiors</a>
+        <a className="nav-logo" href="#" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <img src="/logo.png" alt="Posh Interiors Logo" style={{ width: '42px', height: '42px', borderRadius: '50%', objectFit: 'cover', border: '1px solid var(--gold)', background: '#fff' }} />
+          <span>Posh <span style={{ color: 'var(--gold)' }}>&</span> Interiors</span>
+        </a>
         <ul className="nav-links">
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#curtains">Curtains</a></li>

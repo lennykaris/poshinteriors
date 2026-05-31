@@ -5,7 +5,10 @@ export const Footer: React.FC = () => {
     <footer>
       <div className="footer-grid">
         <div>
-          <div className="footer-brand">Posh <span>&</span> Interiors</div>
+          <div className="footer-brand" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <img src="/logo.png" alt="Posh Interiors Logo" style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover', border: '1px solid var(--gold)', background: '#fff' }} />
+            Posh <span>&</span> Interiors
+          </div>
           <p className="footer-tagline">Nairobi's premier interior design studio — bespoke curtains, fitted wardrobes, and complete transformations since 2018.</p>
           <div className="social-links">
             <a href="https://www.instagram.com/posh_interior_design?igsh=MWQxYjU1NnJ6dG5ncQ==" target="_blank" rel="noopener noreferrer" className="social-link">Ig</a>
