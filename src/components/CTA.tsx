@@ -12,10 +12,10 @@ export const CTA: React.FC = () => {
         <div className="cta-right reveal-right">
           <div className="cta-phone">
             <small>Call us now</small>
-            +254 700 000 000
+            +254 719 286 449
           </div>
           <a href="#" className="btn-gold" style={{ fontSize: '.65rem', padding: '16px 36px' }}>Book Free Consultation</a>
-          <a href="https://wa.me/254700000000" className="wa-cta" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/254719286449" className="wa-cta" target="_blank" rel="noopener noreferrer">
             <span className="wa-dot-big"></span> Chat on WhatsApp
           </a>
         </div>

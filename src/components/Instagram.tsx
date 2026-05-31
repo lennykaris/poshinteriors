@@ -13,8 +13,8 @@ export const Instagram: React.FC = () => {
   return (
     <section className="insta-section">
       <div className="insta-header reveal">
-        <div className="insta-handle">Follow our work <span>@poshinteriors.ke</span></div>
-        <a href="#" className="btn-gold" style={{ fontSize: '.6rem', padding: '12px 24px' }}>Follow on Instagram</a>
+        <div className="insta-handle">Follow our work <span>@posh_interior_design</span></div>
+        <a href="https://www.instagram.com/posh_interior_design?igsh=MWQxYjU1NnJ6dG5ncQ==" target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ fontSize: '.6rem', padding: '12px 24px' }}>Follow on Instagram</a>
       </div>
       <div className="insta-grid">
         {IMAGES.map((src, idx) => (

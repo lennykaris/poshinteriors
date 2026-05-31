@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
           <div className="footer-brand">Posh <span>&</span> Interiors</div>
           <p className="footer-tagline">Nairobi's premier interior design studio — bespoke curtains, fitted wardrobes, and complete transformations since 2018.</p>
           <div className="social-links">
-            <a href="#" className="social-link">Ig</a>
+            <a href="https://www.instagram.com/posh_interior_design?igsh=MWQxYjU1NnJ6dG5ncQ==" target="_blank" rel="noopener noreferrer" className="social-link">Ig</a>
             <a href="#" className="social-link">Fb</a>
             <a href="#" className="social-link">Yt</a>
             <a href="#" className="social-link">Tk</a>
@@ -37,10 +37,10 @@ export const Footer: React.FC = () => {
         <div>
           <p className="footer-col-title">Get in Touch</p>
           <ul className="footer-list">
-            <li><a href="tel:+254700000000">+254 700 000 000</a></li>
+            <li><a href="tel:+254719286449">+254 719 286 449</a></li>
             <li><a href="mailto:hello@poshinteriors.co.ke">hello@poshinteriors.co.ke</a></li>
             <li><a href="#">Westlands, Nairobi</a></li>
-            <li><a href="https://wa.me/254700000000">WhatsApp Us</a></li>
+            <li><a href="https://wa.me/254719286449" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
           </ul>
         </div>
       </div>
